@@ -124,7 +124,9 @@ public:
 				cout << Date.name << " is: " << Date.year << "." << Date.month <<"("<< Date.monthS << ")" << "." << Date.day<<"(" << dayS << ")" << endl;
 			}
 		}
-		
+			~DateIs () {
+			cout << "Class is not working!" << endl;
+		}	
 	};
 int main() {
 	DateIs today("today", 2022, 0, 0);
